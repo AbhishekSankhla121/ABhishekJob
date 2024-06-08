@@ -1,0 +1,139 @@
+.site-footer {
+    background-color: #fef5e6;
+    padding: 1px 0;
+  }
+
+  .content-wrapper {
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.site-footer .end-band {
+    padding: 12px;
+    background-color: #612d0f;
+    color: #fff;
+    text-align: center;
+    font-family: CabinetGrotesk;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.col:nth-child(1) {
+    border-right: 1px solid #612d0f;
+}
+.col{
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 0 36px;
+}
+.nav-links a{
+    font-family: CabinetGrotesk;
+    font-size: 18px;
+    font-weight: 900;
+    color: #612d0f;
+    color: inherit;
+    display: block;
+    text-decoration: none;
+    margin: 15px 0;
+}
+ .footer-row {
+    display: flex;
+    align-items: stretch;
+    margin: 40px -36px;
+}
+.newsletter-form {
+    text-align: center;
+}
+
+footer.site-footer .newsletter-form label {
+    text-align: left;
+    display: block;
+}
+
+.newsletter-form h3 {
+    font-family: CabinetGrotesk;
+    font-size: 28px;
+    font-weight: 900;
+  }
+
+  footer .newsletter-form input[type=email] {
+    border-radius: 18px;
+    background-color: #f5e3c2;
+    border: none;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 16px 24px;
+    font-weight: 700;
+    margin: 10px 0 20px 0;
+}
+
+input[type="email" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+footer.site-footer .newsletter-form button, footer.site-footer .newsletter-form input[type=submit] {
+    display: block;
+    width: 120px;
+    margin: auto;
+    color: #fff;
+    background-color: #612d0f;
+    color: #fef5e6;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 12px;
+    border: none;
+    outline: none;
+}
+
+footer.site-footer .footer-row .col:nth-child(2) {
+    align-self: center;
+}
+
+footer.site-footer .footer-row .col:nth-child(3) {
+    border-left: 1px solid #612d0f;
+  }
+
+  footer.site-footer .social-profile-links a.social-link-instagram {
+    background-image: url(/public/image/insta@2x.png);
+}
+footer.site-footer .social-profile-links a {
+    display: inline-block;
+    width: 51px;
+    height: 52px;
+    overflow: hidden;
+    background-size: 51px auto;
+    text-indent: 100%;
+    white-space: nowrap;
+}
+
+footer.site-footer .social-profile-links a.social-link-facebook {
+    background-image: url(/public/image/fb@2x.png);
+}
+
+footer.site-footer .end-band {
+    padding: 12px;
+    background-color: #612d0f;
+    color: #fff;
+    text-align: center;
+    font-family: CabinetGrotesk;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer.site-footer .end-band .end-band-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer.site-footer .end-band .other-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+}
+

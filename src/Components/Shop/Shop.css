@@ -1,0 +1,259 @@
+.product-main {
+    margin-top: 210px;
+    margin-top: 60px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1160px;
+    padding-bottom: 200px;
+    padding-bottom: 30px;
+  }
+
+  .product-main .page-path li{
+    list-style: none;
+    padding: 0;
+    color: #612d0f;
+  }
+
+  .product-main .page-path a {
+    font-size: inherit;
+    font-weight: 800;
+    text-decoration: none;
+    display: inline-block;
+    color: #612d0f;
+    margin: 0;
+  }
+  
+.product-main .page-path li:not(:last-child)::after {
+    content: "/";
+  
+    display: inline-block;
+  
+    margin: 0 0 0 2px;
+  
+    color: #612d0f;
+  
+    font-weight: 800;
+  
+  }
+  .product-main .page-path li {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    color: inherit;
+    color: #612d0f;
+  }
+
+  .product-main .product-main-row {
+    display: flex;
+    width: 100%;
+  }
+
+  .product-main .product-main-row .product-main-row-col {
+    width: 290px;
+    flex-shrink: 0;
+  }
+
+  .product-main .og-product-review-count .label {
+    display: inline-block;
+    padding: 6px 10px;
+    border: 2px solid #f39d52;
+    border-radius: 12px;
+    font-size: 12px;
+    color: #612d0f;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  .product-main .og-product-review-count .label .average {
+    display: inline-block;
+    background-image: url(/public/image/review-star-full.svg);
+    background-position: left center;
+    min-height: 10px;
+    background-size: 10px auto;
+    padding-left: 15px;
+    vertical-align: middle;
+  }
+
+  .product-main .product-title {
+    font-size: 28px;
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: CabinetGrotesk;
+    color: #612d0f;
+    font-weight: 900;
+  }
+
+  .product-main .product-desciption {
+    margin-bottom: 30px;
+    font-family: CabinetGrotesk;
+    font-size: 18px;
+    font-size: 16px;
+    line-height: 1.4em;
+  }
+
+  .product-desciption ul {
+    color: #612d0f;
+    list-style-position: outside;
+  }
+  .product-main .product-desciption ul li {
+    margin-bottom: .4em;
+  }
+  p, li {
+    line-height: 1.5em;
+  }
+  .product-main .popup {
+    margin: 15px 0;
+  }
+  .product-main .product-main-row .product-main-row-col-large {
+    margin: 0 30px;
+    width: 520px;
+}
+
+.product-main .product-main-row .product-main-row-col {
+    width: 290px;
+    flex-shrink: 0;
+}
+  .product-main .product-image-slides {
+    position: relative;
+    width: 100%;
+  }
+
+  .product-main .product-image-slides .slides .slide img {
+    border-radius: 36px;
+  }
+  .woocommerce img, .woocommerce-page img {
+    height: auto;
+    max-width: 100%;
+  }
+  img {
+    outline: 0;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto !important;
+  }
+
+  .fancy-dropdown-list {
+    border-radius: 18px;
+    background-color: #f5e3c2;
+    display: block;
+    margin-bottom: 16px;
+    position: relative;
+    background-image: url(/public/image/arrow-down-brown.svg);
+    background-size: 16px 16px;
+    background-position: right center;
+    background-position: calc(100% - 16px) center;
+    background-origin: content-box;
+    pointer-events: all;
+}
+
+.fancy-dropdown-list .current-value {
+    font-weight: 900;
+    padding: 25px 20px 8px 20px;
+    width: 100%;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: #612d0f;
+    font-family: inherit;
+    font-size: inherit;
+    white-space: nowrap;
+}
+.fancy-dropdown-list > label {
+    font-size: 12px;
+    position: absolute;
+    top: 9px;
+    left: 20px;
+    pointer-events: none;
+  }
+
+  .woocommerce div.product div.summary {
+    float: none;
+    width: auto;
+}
+
+.woocommerce div.product div.summary {
+    margin-bottom: 2em;
+}
+
+.fancy-size-switch {
+    margin: 0 0 16px 0;
+    border-radius: 18px;
+    background-color: #f5e3c2;
+    display: block;
+    font-family: CabinetGrotesk;
+}
+
+.fancy-size-switch .options {
+    display: flex;
+    align-items: stretch;
+}
+
+.fancy-size-switch .options a.current {
+    background-color: #612d0f;
+    color: #fef5e6;
+}
+
+.fancy-size-switch .options a {
+    flex-basis: 0;
+    flex-grow: 1;
+    background-color: #f5e3c2;
+    margin: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    color: #612d0f;
+    padding: 5px 10px;
+    border-radius: 14px;
+    transition: all linear .1s;
+    text-decoration: none;
+    text-align: center;
+}
+
+.product-main .woocommerce-variation-add-to-cart button.btn-buy-now:hover, .product-main .cart button.btn-buy-now:hover {
+    background-color: #cde6b0;
+  }
+  .product-main .woocommerce-variation-add-to-cart button[type="submit"]:hover, .product-main .cart button[type="submit"]:hover {
+    box-shadow: 8px 8px 0 0 #612d0f;
+    background-color: #fcd18d;
+  }
+  .product-main .woocommerce-variation-add-to-cart button.btn-buy-now, .product-main .cart button.btn-buy-now {
+    margin-top: 24px;
+    background-color: #cde6b0;
+  }
+  .single_add_to_cart_button{
+    text-decoration: none;
+    border-radius: 18px;
+    box-shadow: 12px 12px 0 0 #612d0f;
+    border: solid 2px #612d0f;
+    background-color: #fcd18d;
+    padding: 11px 22px 13px;
+    min-width: 260px;
+    color: #612d0f !important;
+    text-align: center;
+    font-family: CabinetGrotesk;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 20px;
+    width: 100%;
+    float: none !important;margin: 4px;
+  }
+
+  .btn-buy-now{
+    margin-top: 25px;
+    background-color: #cde6b0;
+  }
+  .product-main .og-product-display-price {
+    margin-bottom: 10px;
+  }
+  .product-main .og-product-display-price {
+    margin: 30px 0;
+    margin: 0 0 30px 0;
+      margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 900;
+    color: #612d0f;
+  }

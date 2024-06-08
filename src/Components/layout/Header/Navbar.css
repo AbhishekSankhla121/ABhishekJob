@@ -1,0 +1,78 @@
+
+
+.nav-top{
+    background-color: #612d0f;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    position: relative;
+}
+.nav-bottom{
+    display: flex;
+  width: 1200px;
+  max-width: 100%;
+  margin: auto;
+  align-items: center;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  height: 100px;
+}
+
+.nav-logo{
+    padding: 0;
+  background-image: url(/public/image/origin-logo-combined.svg);
+  width: 140px;
+  height: 40px;
+  background-size: 100% auto;
+  margin-right: 25px;
+  overflow: hidden;
+  color: rgba(0,0,0,0);
+}
+
+.nav-item{
+    margin-right: 50px;
+    margin-right: 35px;
+    color: #612d0f;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 800;
+    transform-origin: center center;
+}
+
+.other{
+    display: flex;
+  align-items: center;
+}
+
+
+.protein-cal-menu-link{
+    border-radius: 10px;
+  background-color: #fcd18d;
+  padding: 6px 12px;
+}
+
+
+
+.controls{
+    margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+#inputProductSearch{
+  border: none;
+  outline: none;
+  border-radius: 60px;
+  border: 1px solid #612d0f;
+  background-image: url(/public/image/icon-search.svg);
+  background-position: 12px center;
+  width: 220px;
+  background-color: rgba(0,0,0,0);
+  padding-left: 46px;
+  padding-right: 10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  color: #612d0f;
+}

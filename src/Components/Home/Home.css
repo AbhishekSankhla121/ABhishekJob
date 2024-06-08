@@ -1,0 +1,158 @@
+.content-wrapper{
+    padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.shop-page-title{
+    position: relative;
+  z-index: 1;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.Products{
+    margin: 0 auto;
+  padding: 0;
+  max-width: 1180px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product{
+    width: calc(33.33% - 24px);
+    width: calc(25% - 24px);
+    margin: 12px;
+    border: 1px solid #f39d52;
+  border-radius: 24px;
+  padding: 24px;
+    padding-top: 24px;
+  padding-top: 50px;
+  box-shadow: 0px 0px 0 0px #f39f56;
+  transition: box-shadow linear .1s;
+  display: block;
+  line-height: 1.5em;
+}
+
+.product:hover{
+    box-shadow: 10px 10px 0 0px #f39f56;
+}
+
+.product-title{
+    margin: 14px 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4em;
+    min-height: 45px;
+}
+.attachment-image{
+    width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 0 1em;
+  box-shadow: none;
+}
+
+.ratings-servings{
+    display: flex;
+  height: 25px;
+}
+
+.ratings{
+  font-size: 12px;
+  font-weight: 800;
+  padding: 7px 8px 4px 28px;
+  border-radius: 8px;
+  background-color: #f5e3c2;
+  color: #612d0f;
+  line-height: 1em;
+  background-image: url(/public/image/review-star-full.svg);
+  background-position: 11px 6px;
+  background-size: 10px auto;
+  margin-right: 8px;
+  border: solid 1px #f5e3c2;
+}
+
+.servings{
+    font-size: 12px;
+    font-weight: 800;
+    padding: 7px 8px 4px 8px;
+    border-radius: 8px;
+    background-color: rgba(0,0,0,0);
+    border: solid 1px #f39d52;
+    color: #612d0f;
+    line-height: 1em;
+    margin: 0;
+}
+
+.price{
+    font-size: 18px;
+  font-weight: 900;
+  color: #612d0f;
+}
+.single_add_to_cart_button1 {
+    display: block;
+  text-decoration: none;
+  border-radius: 12px;
+  border: solid 1px #f39d52;
+  background-color: #f39d52;
+  padding: 11px 22px 10px 22px;
+  color: #fef5e6 !important;
+  text-align: center;
+  font-family: CabinetGrotesk;
+  font-size: 20px;
+  font-weight: 900;
+  width: 100%;
+}
+
+.instagram-feed{
+    padding: 80px 0;
+}
+
+.link-to-instagram{
+    font-size: 32px;
+  text-align: center;
+  font-weight: 900;
+  color: #f39d52;
+}
+.instagram-jjjj{
+    font-family: CabinetGrotesk;
+  color: #612d0f;
+  font-weight: 900;
+  text-align: center;
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: .5em;
+}
+
+.feed-roller{
+    margin-top: 80px;
+  position: relative;
+  display: flex;
+}
+
+.image{
+    overflow: hidden;
+    position: relative;
+    width: 248px;
+    height: 248px;
+    display: block;
+}
+
+.scroll-with-arrow,li{
+    flex-grow: 1;
+    overflow: hidden;
+    list-style: none;
+    display: flex;
+    margin: 10px;
+    padding: 0;
+    justify-content: center;
+}
+.image{
+    overflow: hidden;
+    position: relative;
+    width: 248px;
+    height: 248px;
+    display: block;
+    margin: 10px; 
+}
